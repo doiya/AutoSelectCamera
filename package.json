@@ -1,0 +1,27 @@
+{
+  "name": "autoselectcamera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doiya/AutoSelectCamera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doiya/AutoSelectCamera/issues"
+  },
+  "homepage": "https://github.com/doiya/AutoSelectCamera#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
