@@ -1,4 +1,13 @@
-import { VideoPlayer } from "./videoPlayer";
+import { Camera } from './Camera';
+import { FaceTracker } from './FaceTracker';
 
-const videoPlayer: VideoPlayer = new VideoPlayer();
-videoPlayer.play();
+const video = document.getElementById('video') as HTMLVideoElement;
+
+const camera: Camera = new Camera();
+camera.play(video);
+
+const canvas = document.getElementById('canvas1') as HTMLCanvasElement;
+
+const faceTracker: FaceTracker = new FaceTracker;
+faceTracker.on(video, canvas);
+
